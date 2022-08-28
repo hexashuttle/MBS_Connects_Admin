@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1935" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/drawable/back_border.xml" value="0.1935" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/drawable/card1.xml" value="0.1935" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/drawable/card2.xml" value="0.1935" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/drawable/card4.xml" value="0.1935" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1935" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/drawable/otp_bg.xml" value="0.1935" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/drawable/progress_bg.xml" value="0.1935" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/drawable/teacher_icon.xml" value="0.127" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout-large/activity_navigation_menu.xml" value="0.153125" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout-normal/activity_navigation_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout-small/activity_navigation_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_add_teacher.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_assigment_options.xml" value="0.2" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_book_upload.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_choose_year.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_course.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_create_class.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_delete_notice.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_developers.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_fee_option.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_forgot_password1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_forgot_password2.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_forgot_password3.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_labwork.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_navigation_menu.xml" value="0.2" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_newpassword_password3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_notice2.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_otp_verification.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_paper.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_password_update.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_result.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_schedule_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_sign_up_page2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_signup_page3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_support.xml" value="0.2" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_term_fee.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_time_table.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_update_fee.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_update_fees.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_update_teacher.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_upload_book.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_upload_image.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_upload_notice.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_view_teacher.xml" value="0.1925925925925926" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_yearly_fee.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/activity_youtube.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/content_forgot_password1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/demo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/drop_down.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/fragment_first.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/list_items.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/lock.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/menu_header.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/no_data.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/notice_itemfeed.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/layout/teacher_item_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/MBSConnectsAdmin/app/src/main/res/menu/main_menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

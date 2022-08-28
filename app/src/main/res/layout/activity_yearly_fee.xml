@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fees.yearly_fee"
+    android:paddingRight="40dp"
+    android:paddingLeft="40dp">
+
+    <LinearLayout
+
+        android:layout_marginTop="-60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Update \nCourse Fee"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/text_Color"
+        android:textSize="36sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Your Name"
+
+        app:boxStrokeColor="@color/text_Color"
+        app:boxStrokeWidthFocused="2dp"
+        app:hintTextColor="@color/text_Color"
+        app:endIconTint="@color/text_Color"
+        app:startIconDrawable="@drawable/pencil"
+        app:endIconMode="clear_text"
+        android:id="@+id/fee_name"
+        app:startIconTint="@color/text_Color"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:layout_height="match_parent"></com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input The Fee"
+
+            app:boxStrokeColor="@color/text_Color"
+            app:boxStrokeWidthFocused="2dp"
+            app:hintTextColor="@color/text_Color"
+            app:endIconTint="@color/text_Color"
+            app:startIconDrawable="@drawable/pencil"
+            app:endIconMode="clear_text"
+            android:id="@+id/fee"
+            app:startIconTint="@color/text_Color"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:layout_height="match_parent"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Update"
+            android:backgroundTint="#2897FF"
+            android:layout_marginTop="30dp"
+            android:onClick="update1"
+            android:layout_marginBottom="60dp"
+            ></Button>
+
+    </LinearLayout>
+
+</ScrollView>

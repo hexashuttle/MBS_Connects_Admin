@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    tools:context=".live_class.create_class">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create\nClass"
+            android:textAllCaps="true"
+            android:textSize="35sp"
+            android:fontFamily="@font/archivo_black"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/text_Color"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Create a room code or enter the code of the room if you want to join/create a room"
+
+            android:textSize="18sp"
+
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/text_Color"
+            ></TextView>
+
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:textColor="#F3564D"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*The room code should start with atleast three alphabets and followed by digits"></TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Room Code"
+
+            app:boxStrokeColor="@color/text_Color"
+            app:boxStrokeWidthFocused="2dp"
+            app:hintTextColor="@color/text_Color"
+            app:endIconTint="@color/text_Color"
+            app:startIconDrawable="@drawable/online_class_1"
+            app:endIconMode="clear_text"
+            android:id="@+id/code"
+            app:startIconTint="@color/text_Color"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:inputType="text"
+                android:layout_height="match_parent"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <Button
+
+            android:onClick="create_room"
+            android:id="@+id/next_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#2897FF"
+
+            android:text="create/join"
+            ></Button>
+        <Button
+            android:onClick="share"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="0dp"
+            android:backgroundTint="#34C759"
+        android:layout_gravity="center"
+        android:text="Share Code"
+            android:layout_marginBottom="60dp"
+            ></Button>
+</LinearLayout>
+
+
+</ScrollView>

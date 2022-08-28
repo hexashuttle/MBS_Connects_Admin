@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="HOME"
+            android:icon="@drawable/homw"
+        ></item>
+    <item
+        android:id="@+id/nav_clg"
+        android:title="COLLEGE OPTIONS"
+        android:icon="@drawable/home"
+        ></item>
+
+        <item
+            android:id="@+id/nav_stu"
+            android:title="STUDNET OPTIONS"
+            android:icon="@drawable/college"
+            ></item>
+
+
+    </group>
+
+    <item
+        android:title="Profile"
+        >
+
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                >
+
+                <item
+                    android:id="@+id/logout"
+                    android:title="LOGOUT"
+                    android:icon="@drawable/lougout"
+                    ></item>
+
+                <item
+                    android:id="@+id/pass"
+                    android:title="RESET PASSWORD"
+                    android:icon="@drawable/password"
+                    ></item>
+
+                <item
+                    android:id="@+id/delete_acc"
+                    android:title="DELETE ACCOUNT"
+                    android:icon="@drawable/delete"
+                    ></item>
+
+                <item
+                    android:id="@+id/add_account"
+                    android:title="ADD ACCOUNT"
+                    android:icon="@drawable/add"
+                    ></item>
+
+
+            </group>
+        </menu>
+
+    </item>
+
+
+
+    <item
+        android:title="Other"
+        >
+
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                >
+
+
+
+                <item
+                    android:id="@+id/nav_supp"
+                    android:title="SUPPORT"
+                    android:icon="@drawable/supp"
+                    ></item>
+
+                <item
+                    android:id="@+id/nav_about"
+                    android:title="ABOUT DEVELOPER"
+                    android:icon="@drawable/about"
+                    ></item>
+
+
+
+
+
+            </group>
+        </menu>
+
+    </item>
+
+
+
+</menu>

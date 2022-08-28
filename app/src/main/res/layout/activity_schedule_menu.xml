@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".timetable.schedule_menu">
+
+    <LinearLayout
+        android:layout_marginTop="-60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/archivo_black"
+            android:text="Upload\nSchedule"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/text_Color"
+            android:textSize="36sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+
+            android:textSize="20sp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose the type of type of time table you want to upload"
+            ></TextView>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/schedule"
+            android:layout_marginTop="10dp"
+            >
+
+            <RadioButton
+                android:textColor="@color/text_Color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class-Time-Table"
+                ></RadioButton>
+            <RadioButton
+                android:textColor="@color/text_Color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sessional-Time-Table"
+                ></RadioButton>
+            <RadioButton
+                android:textColor="@color/text_Color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester-Time-Table"
+                ></RadioButton>
+
+        </RadioGroup>
+
+        <Button
+            android:onClick="next_timetable"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="next"
+            android:layout_marginBottom="60dp"
+            android:backgroundTint="@color/button_color"></Button>
+
+    </LinearLayout>
+
+</ScrollView>

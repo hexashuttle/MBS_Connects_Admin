@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".assigment.assigment_options"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp">
+
+    <LinearLayout
+
+        android:layout_marginTop="-60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Assignment"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/text_Color"
+        android:textSize="36sp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+
+            android:textSize="20sp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose the type of assignment which will be given to the student "
+            ></TextView>
+
+        <RadioGroup
+            android:layout_marginTop="10dp"
+            android:id="@+id/assign_radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab-Work"
+                android:textColor="@color/text_Color"
+                ></RadioButton>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assignment"
+                android:textColor="@color/text_Color"
+                ></RadioButton>
+
+            <RadioButton
+                android:textColor="@color/text_Color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home-Work"></RadioButton>
+
+
+        </RadioGroup>
+
+
+        <Button
+            android:onClick="next_labwork"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/button_color"
+            android:text="Next"
+            android:layout_marginBottom="60dp"></Button>
+
+
+    </LinearLayout>
+
+</ScrollView>

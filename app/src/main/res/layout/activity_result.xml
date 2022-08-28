@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".result.result_activity">
+    <ScrollView
+        android:scrollbarSize="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="40dp"
+            >
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="80dp"
+                android:onClick="choose_result"
+                android:layout_height="80dp"
+                android:elevation="400dp"
+                app:cardCornerRadius="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/upload_pdf"
+
+                    android:layout_gravity="center"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose Result"
+                android:textSize="20sp"
+                android:textColor="@color/text_Color"
+                android:layout_marginTop="12dp"
+                ></TextView>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Input the roll number"
+                android:id="@+id/roll_number"
+                app:boxStrokeColor="@color/text_Color"
+                app:boxStrokeWidthFocused="2dp"
+                app:hintTextColor="@color/text_Color"
+                app:endIconTint="@color/text_Color"
+                app:startIconDrawable="@drawable/pencil"
+                app:endIconMode="clear_text"
+                app:startIconTint="@color/text_Color"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/title3"
+                    android:layout_width="match_parent"
+                    android:inputType="text"
+                    android:layout_height="match_parent"></com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#2897FF"
+                android:text="Upload"
+                android:layout_marginTop="20dp"
+                android:onClick="upload_result2"
+                ></Button>
+
+            <ProgressBar
+                android:id="@+id/p_bar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:visibility="invisible"
+                ></ProgressBar>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

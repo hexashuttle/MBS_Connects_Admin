@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_signup.login"
+
+    android:transitionName="login_tranition">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="LOGIN"
+        android:textColor="@color/text_Color"
+        android:textSize="35sp" />
+
+
+
+
+    </LinearLayout>
+    <com.hbb20.CountryCodePicker
+        app:ccp_defaultNameCode="IND"
+        android:id="@+id/login_country_code"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/back_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ccp_autoDetectCountry="true"
+        app:ccp_showFlag="true"
+        app:ccp_showNameCode="true"
+        app:ccp_showFullName="true"></com.hbb20.CountryCodePicker>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Phone Number"
+
+        app:boxStrokeColor="@color/text_Color"
+        app:boxStrokeWidthFocused="2dp"
+        app:hintTextColor="@color/text_Color"
+        app:endIconTint="@color/text_Color"
+        app:startIconDrawable="@drawable/phone"
+        app:endIconMode="clear_text"
+        android:id="@+id/login_phonenumber"
+        app:startIconTint="@color/text_Color"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phone_session"
+            android:layout_width="match_parent"
+            android:inputType="phone"
+            android:layout_height="match_parent"></com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Your Password"
+        android:id="@+id/login_password"
+        app:boxStrokeColor="@color/text_Color"
+        app:boxStrokeWidthFocused="2dp"
+        app:hintTextColor="@color/text_Color"
+        app:endIconTint="@color/text_Color"
+        app:startIconDrawable="@drawable/lock"
+        app:endIconMode="clear_text"
+        app:startIconTint="@color/text_Color"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="textEmailAddress"
+            android:id="@+id/pass_session"
+            android:layout_height="match_parent"></com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+
+         <CheckBox
+           android:id="@+id/remember_me"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Remember Me"
+             android:textColor="@color/text_Color"
+            android:layout_gravity="left"
+             android:textSize="12sp"></CheckBox>
+
+
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentEnd="true"
+             android:layout_alignParentRight="true"
+             android:layout_gravity="right"
+             android:layout_marginLeft="70dp"
+             android:layout_marginTop="10dp"
+             android:background="#00000000"
+             android:onClick="forgetpassword"
+             android:text="Forget Password?"
+
+             android:textColor="@color/text_Color"
+             android:textSize="12sp"></Button>
+
+     </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#2897FF"
+        android:onClick="login"
+        android:text="Login"></Button>
+
+
+    <Button
+        android:onClick="create_account"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="#00000000"
+        android:textColor="@color/text_Color"
+        android:text="Create Account"></Button>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:id="@+id/progressbar"
+        android:visibility="gone"
+        android:layout_marginBottom="60dp"
+        ></ProgressBar>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    tools:context=".fees.course_activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+
+        <TextView
+            android:transitionName="sign_text_transition"
+            android:textColor="@color/text_Color"
+            android:textSize="35sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose\nCourse"
+            android:textAllCaps="true"
+            android:fontFamily="@font/archivo_black"
+            ></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose a course to update it's fee?"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            ></TextView>
+
+        <RadioGroup
+            android:id="@+id/courses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BCOM"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/bba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BBA"
+                ></RadioButton>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BSc"
+                ></RadioButton>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MCom"
+                ></RadioButton>
+            <RadioButton
+                android:id="@+id/bca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BCA"
+                ></RadioButton>
+        </RadioGroup>
+
+
+        <Button
+           android:layout_marginBottom="60dp"
+            android:id="@+id/next_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#2897FF"
+            android:onClick="fee_next"
+            android:text="Next"
+            android:transitionName="sign_transition"></Button>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

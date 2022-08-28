@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:transitionName="sign_tranition"
+    android:background="@color/white"
+    tools:context=".login_signup.signup_page3"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:transitionName="sign_text_transition"
+            android:textColor="@color/text_Color"
+            android:textSize="35sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="create\naccount"
+            android:textAllCaps="true"
+            android:fontFamily="@font/archivo_black"
+            ></TextView>
+
+
+        <com.hbb20.CountryCodePicker
+            app:ccp_defaultNameCode="IND"
+            android:id="@+id/country_code"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/back_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ccp_autoDetectCountry="true"
+            app:ccp_showFlag="true"
+            app:ccp_showNameCode="true"
+            app:ccp_showFullName="true"></com.hbb20.CountryCodePicker>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Phone Number"
+
+            app:boxStrokeColor="@color/text_Color"
+            app:boxStrokeWidthFocused="2dp"
+            app:hintTextColor="@color/text_Color"
+            app:endIconTint="@color/text_Color"
+            app:startIconDrawable="@drawable/phone"
+            app:endIconMode="clear_text"
+            android:id="@+id/phonenumber"
+            app:startIconTint="@color/text_Color"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:inputType="phone"
+                android:layout_height="match_parent"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+
+            android:id="@+id/next_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#2897FF"
+            android:onClick="signup_next"
+            android:text="Next"
+            ></Button>
+
+        <Button
+            android:onClick="back"
+            android:id="@+id/login_btn"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="#00000000"
+            android:textColor="@color/text_Color"
+            android:text="BACK"
+            android:layout_marginBottom="60dp"></Button>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

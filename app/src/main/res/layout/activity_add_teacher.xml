@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".teacher_data.add_teacher"
+    android:paddingRight="40dp"
+    android:paddingLeft="40dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/addtechaerimage"
+            android:src="@drawable/teacher_icon"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Teacher's Name"
+
+            app:boxStrokeColor="@color/text_Color"
+            app:boxStrokeWidthFocused="2dp"
+            app:hintTextColor="@color/text_Color"
+            app:endIconTint="@color/text_Color"
+            app:startIconDrawable="@drawable/pencil"
+            app:endIconMode="clear_text"
+            android:id="@+id/teacher_name"
+            app:startIconTint="@color/text_Color"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:inputType="text"
+                android:layout_height="match_parent"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Teacher's Email"
+
+            app:boxStrokeColor="@color/text_Color"
+            app:boxStrokeWidthFocused="2dp"
+            app:hintTextColor="@color/text_Color"
+            app:endIconTint="@color/text_Color"
+            app:startIconDrawable="@drawable/pencil"
+            app:endIconMode="clear_text"
+            android:id="@+id/teache_email"
+            app:startIconTint="@color/text_Color"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:inputType="textEmailAddress"
+                android:layout_height="match_parent"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Teacher's Phone Number"
+
+            app:boxStrokeColor="@color/text_Color"
+            app:boxStrokeWidthFocused="2dp"
+            app:hintTextColor="@color/text_Color"
+            app:endIconTint="@color/text_Color"
+            app:startIconDrawable="@drawable/phone"
+            app:endIconMode="clear_text"
+            android:id="@+id/teacher_number"
+            app:startIconTint="@color/text_Color"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:inputType="phone"
+                android:layout_height="match_parent"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Choose Teacher's Department"
+            android:elevation="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/white"
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_txt_department"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+
+
+
+
+
+        <Button
+            android:onClick="upload_teacher"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/button_color"
+            android:text="Upload"></Button>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/teacher_progress"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"
+            android:layout_marginBottom="60dp"
+            ></ProgressBar>
+    </LinearLayout>
+
+</ScrollView>

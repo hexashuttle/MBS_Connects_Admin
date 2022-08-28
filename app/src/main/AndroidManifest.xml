@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mbsconnectsadmin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MBSConnectsAdmin.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".upload_notice.delete_notice"
+            android:exported="false" />
+        <activity
+            android:name=".paper.paper"
+            android:exported="false" />
+        <activity
+            android:name=".timetable.time_table"
+            android:exported="false" />
+        <activity
+            android:name=".timetable.schedule_menu"
+            android:exported="false" />
+        <activity
+            android:name=".assigment.assigment_options"
+            android:exported="false" />
+        <activity
+            android:name=".assigment.labwork"
+            android:exported="false" />
+        <activity
+            android:name=".gallery.upload_image"
+            android:exported="false" />
+        <activity
+            android:name=".teacher_data.update_teacher"
+            android:exported="false" />
+        <activity
+            android:name=".teacher_data.view_teacher"
+            android:exported="false" />
+        <activity
+            android:name=".teacher_data.add_teacher"
+            android:exported="false" />
+        <activity
+            android:name=".fees.yearly_fee"
+            android:exported="false" />
+        <activity
+            android:name=".fees.term_fee"
+            android:exported="false" />
+        <activity
+            android:name=".fees.choose_year"
+            android:exported="false" />
+        <activity
+            android:name=".fees.fee_option"
+            android:exported="false" />
+        <activity
+            android:name=".fees.course_activity"
+            android:exported="false" />
+        <activity
+            android:name=".result.result_activity"
+            android:exported="false" />
+        <activity
+            android:name=".uploadbook.book_upload"
+            android:exported="false" />
+        <activity
+            android:name=".upload_notice.notice_activity"
+            android:exported="false" />
+        <activity
+            android:name=".support.support_activity"
+            android:exported="false" />
+        <activity
+            android:name=".about_dev.developers"
+            android:exported="false" />
+        <activity
+            android:name=".youtube_data.youtube"
+            android:exported="false" />
+        <activity
+            android:name=".live_class.create_class"
+            android:exported="false" />
+        <activity
+            android:name=".login_signup.password_update"
+            android:exported="false" />
+        <activity
+            android:name=".login_signup.newpassword_password3"
+            android:exported="false" />
+        <activity
+            android:name=".login_signup.sign_up_page2"
+            android:exported="false" />
+        <activity
+            android:name=".login_signup.forgot_password1"
+            android:exported="false" />
+        <activity
+            android:name=".login_signup.otp_verification"
+            android:exported="false" />
+        <activity
+            android:name=".login_signup.signup_page3"
+            android:exported="false" />
+        <activity
+            android:name=".login_signup.sign_up"
+            android:exported="false" />
+        <activity
+            android:name=".login_signup.login"
+            android:exported="false" />
+        <activity
+            android:name=".splashscreen.splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".navigation.navigation_menu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
